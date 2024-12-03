@@ -3,7 +3,7 @@ name: Publish Chatwoot Docker Image to AWS ECR
 on:
   push:
     branches:
-      - main
+      - develop
 
 permissions:
   contents: read
