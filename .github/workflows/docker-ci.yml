@@ -37,9 +37,6 @@ jobs:
 
       # Step 4: Build and Push Docker Image
       - name: Build and Push Docker Image
-        env:
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         run: |
           # Define the ECR repository URL
           REPO_URL=688351450096.dkr.ecr.ap-south-1.amazonaws.com
