@@ -1,3 +1,11 @@
+## Setup Guide:
+https://www.chatwoot.com/docs/contributing-guide/project-setup
+
+```
+make db
+foreman start -f Procfile.dev
+```
+
 ## 🚨 Note: This branch is unstable. For the stable branch's source code, please use the branch [3.x](https://github.com/chatwoot/chatwoot/tree/3.x)
 
 
